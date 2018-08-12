@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33946dc6-ca00-4ffc-9ea7-ccb1a735fcea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +22,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsdata.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newsdata.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newsdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-472">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -63,13 +72,14 @@
         <option value="$PROJECT_DIR$/newsdata.sql" />
         <option value="$PROJECT_DIR$/example.txt" />
         <option value="$PROJECT_DIR$/newsdata.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="248" />
-    <option name="y" value="120" />
-    <option name="width" value="1440" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="602" />
+    <option name="y" value="28" />
+    <option name="width" value="808" />
     <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,13 +132,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Inspection Results" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -179,8 +189,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newsdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-472">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
