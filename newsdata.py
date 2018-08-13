@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 import psycopg2
 
 DBNAME = "news"
@@ -8,25 +9,29 @@ def connect_database(query):
     db = psycopg2.connect(database=DBNAME)
     c = db.cursor()
     c.execute(query)
+
     return c.fetchall()
     db.close()
 
 
-query1 = '''select title, count(title) as num from articles, log 
+query1 = '''select title, count(title) as num from articles, log
          where log.path = concat('/article/', articles.slug)
          group by title order by num desc limit 3;'''
 
 query2 = '''select name, count(name) as num from authors, articles,log
-         where articles.author = authors.id and log.path = concat('/article/', articles.slug)
+         where articles.author = authors.id
+         and log.path = concat('/article/', articles.slug)
          group by name order by num desc;'''
 
 query3 = '''select * from(
-         select all_queries.date,(cast(error_queries.errors *100 as float)/all_queries.all) as ratio
+         select all_queries.date,
+         (cast(error_queries.errors *100 as float)/all_queries.all) as ratio
          from (
-         (select date(time), count(status) as errors from log where status != '200 OK'
+         (select date(time), count(status) as errors
+         from log where status != '200 OK'
          group by date(time)) error_queries
          full join
-         (select date(time), count(status) as all from log 
+         (select date(time), count(status) as all from log
          group by date(time)) all_queries
          on all_queries.date = error_queries.date
          )) ratio_table
